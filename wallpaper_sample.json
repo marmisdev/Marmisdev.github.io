@@ -1,7 +1,100 @@
 {
   "Categories": [
     {
-      "name": "category"
+      "name": "Alice"
+    },
+    {
+      "name": "Alin"
+    },
+    {
+      "name": "Carlito"
+    },
+    {
+      "name": "Choi Ji Yoon"
+    },
+    {
+      "name": "Criss"
+    },
+    {
+      "name": "David Black"
+    },
+    {
+      "name": "Dominique"
+    },
+    {
+      "name": "Dorothy Dark Knight"
+    },
+    {
+      "name": "Enzo"
+    },
+    {
+      "name": "Erika"
+    },
+    {
+      "name": "Etc"
+    },
+    {
+      "name": "Fernando"
+    },
+    {
+      "name": "Flora Paladin"
+    },
+    {
+      "name": "Gerard"
+    },
+    {
+      "name": "Ha Ly"
+    },
+    {
+      "name": "Henry"
+    },
+    {
+      "name": "Ian"
+    },
+    {
+      "name": "Isabelle"
+    },
+    {
+      "name": "Jin Se-yeon"
+    },
+    {
+      "name": "Keith Icahn"
+    },
+    {
+      "name": "Krieg"
+    },
+    {
+      "name": "Lingling"
+    },
+    {
+      "name": "Lucia"
+    },
+    {
+      "name": "Max Thacker"
+    },
+    {
+      "name": "May"
+    },
+    {
+      "name": "Michaela"
+    },
+    {
+      "name": "Natasha"
+    },
+    {
+      "name": "Poster"
+    },
+    {
+      "name": "Rebecca"
+    },
+    {
+      "name": "Sonya Lycanthrope"
+    },
+    {
+      "name": "Soy"
+    },
+    {
+      "name": "Walter"
     }
   ],
   "Wallpapers": [
@@ -38,14 +131,14 @@
       "url": "https://marmisdev.win/cso/Bg_kate.png",
       "thumbUrl": "https://marmisdev.win/cso/Bg_kate.png",
       "name": "Kate",
-      "category": "etc"
+      "category": "Etc,Kate"
     },
     {
       "author": "Copyright from CSO WIKI",
       "url": "https://marmisdev.win/cso/blair_South_Korea_wallpaper.png",
       "thumbUrl": "https://marmisdev.win/cso/blair_South_Korea_wallpaper.png",
       "name": "Blair South Korea wallpaper",
-      "category": "Blair"
+      "category": "Blair,Poster"
     },
     {
       "author": "Copyright from CSO WIKI",
@@ -556,7 +649,7 @@
       "url": "https://marmisdev.win/cso/Hunter_Wallpaper.png",
       "thumbUrl": "https://marmisdev.win/cso/Hunter_Wallpaper.png",
       "name": "Hunter",
-      "category": "etc"
+      "category": "Etc,Hunter"
     },
     {
       "author": "Copyright from CSO WIKI",
@@ -654,7 +747,7 @@
       "url": "https://marmisdev.win/cso/Keith.png",
       "thumbUrl": "https://marmisdev.win/cso/Keith.png",
       "name": "Keith",
-      "category": "etc"
+      "category": "Etc,Keith Icahn"
     },
     {
       "author": "Copyright from CSO WIKI",
@@ -878,14 +971,14 @@
       "url": "https://marmisdev.win/cso/Omen_promotional_art.png",
       "thumbUrl": "https://marmisdev.win/cso/Omen_promotional_art.png",
       "name": "Omen promotional art",
-      "category": "etc"
+      "category": "Etc,Poster"
     },
     {
       "author": "Copyright from CSO WIKI",
       "url": "https://marmisdev.win/cso/Raven_promotional_art.png",
       "thumbUrl": "https://marmisdev.win/cso/Raven_promotional_art.png",
       "name": "Raven promotional art",
-      "category": "Raven"
+      "category": "Raven,Poster"
     },
     {
       "author": "Copyright from CSO WIKI",
@@ -948,28 +1041,28 @@
       "url": "https://marmisdev.win/cso/Sonya2.png",
       "thumbUrl": "https://marmisdev.win/cso/Sonya2.png",
       "name": "Sonya",
-      "category": "Sonya"
+      "category": "Sonya Lycanthrope"
     },
     {
       "author": "Copyright from CSO WIKI",
       "url": "https://marmisdev.win/cso/Sonya_pose.png",
       "thumbUrl": "https://marmisdev.win/cso/Sonya_pose.png",
       "name": "Sonya pose",
-      "category": "Sonya"
+      "category": "Sonya Lycanthrope"
     },
     {
       "author": "Copyright from CSO WIKI",
       "url": "https://marmisdev.win/cso/Sonya_poster_2_2.png",
       "thumbUrl": "https://marmisdev.win/cso/Sonya_poster_2_2.png",
       "name": "Sonya with SG552 Lycanthrope",
-      "category": "Sonya,Poster"
+      "category": "Sonya Lycanthrope,Poster"
     },
     {
       "author": "Copyright from CSO WIKI",
       "url": "https://marmisdev.win/cso/Sonya_poster_2a.png",
       "thumbUrl": "https://marmisdev.win/cso/Sonya_poster_2a.png",
       "name": "Sonya with SG552 Lycanthrope",
-      "category": "Sonya,Poster"
+      "category": "Sonya Lycanthrope,Poster"
     },
     {
       "author": "Copyright from CSO WIKI",
@@ -1060,7 +1153,7 @@
       "url": "https://marmisdev.win/cso/Yuri-Criss_2.png",
       "thumbUrl": "https://marmisdev.win/cso/Yuri-Criss_2.png",
       "name": "Yuri-Criss",
-      "category": "etc"
+      "category": "Etc,Yuri,Criss"
     },
     {
       "author": "Copyright from CSO WIKI",
