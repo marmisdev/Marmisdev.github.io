@@ -40,22 +40,13 @@
       "name": "Flora Paladin"
     },
     {
-      "name": "Gerard"
+      "name": "Gerrard"
     },
     {
       "name": "Ha Ly"
     },
     {
-      "name": "Henry"
-    },
-    {
-      "name": "Ian"
-    },
-    {
       "name": "Isabelle"
-    },
-    {
-      "name": "Jin Se-yeon"
     },
     {
       "name": "Keith Icahn"
@@ -359,15 +350,15 @@
     },
     {
       "author": "Copyright from CSO WIKI",
-      "url": "https://marmisdev.win/cso/Criss-CS_Online.png",
-      "thumbUrl": "https://marmisdev.win/cso/Criss-CS_Online.png",
+      "url": "https://marmisdev.win/cso/Criss_CS_Online.png",
+      "thumbUrl": "https://marmisdev.win/cso/Criss_CS_Online.png",
       "name": "Criss Promotional art",
       "category": "Criss"
     },
     {
       "author": "Copyright from CSO WIKI",
-      "url": "https://marmisdev.win/cso/Criss-Wallpaper.png",
-      "thumbUrl": "https://marmisdev.win/cso/Criss-Wallpaper.png",
+      "url": "https://marmisdev.win/cso/Criss_Wallpaper.png",
+      "thumbUrl": "https://marmisdev.win/cso/Criss_Wallpaper.png",
       "name": "Criss South Korea poster",
       "category": "Criss,Poster"
     },
@@ -1252,6 +1243,34 @@
       "thumbUrl": "https://vignette.wikia.nocookie.net/cso/images/7/78/Studio_space_china.jpg/revision/latest?cb=20180411044719&format=original",
       "name": "Alice China poster",
       "category": "Alice, Poster"
+    },
+    {
+      "author": "Copyright from CSO WIKI",
+      "url": "https://vignette.wikia.nocookie.net/cso/images/f/fc/Fernandocsnz.png/revision/latest?cb=20160504085318&format=original",
+      "thumbUrl": "https://vignette.wikia.nocookie.net/cso/images/f/fc/Fernandocsnz.png/revision/latest?cb=20160504085318&format=original",
+      "name": "Fernando CSN:Z poster",
+      "category": "Fernando, Poster"
+    },
+    {
+      "author": "Copyright from CSO WIKI",
+      "url": "https://vignette.wikia.nocookie.net/cso/images/9/9a/3485826737680416774.jpg/revision/latest?cb=20111025234740&format=original",
+      "thumbUrl": "https://vignette.wikia.nocookie.net/cso/images/9/9a/3485826737680416774.jpg/revision/latest?cb=20111025234740&format=original",
+      "name": "Fernando South Korea poster",
+      "category": "Fernando, Poster"
+    },
+    {
+      "author": "Copyright from CSO WIKI",
+      "url": "https://vignette.wikia.nocookie.net/cso/images/9/90/Y005399_3903.jpg/revision/latest?cb=20120308080347&format=original",
+      "thumbUrl": "https://vignette.wikia.nocookie.net/cso/images/9/90/Y005399_3903.jpg/revision/latest?cb=20120308080347&format=original",
+      "name": "Fernando Ditto poster",
+      "category": "Fernando, Poster"
+    },
+    {
+      "author": "Copyright from CSO WIKI",
+      "url": "https://vignette.wikia.nocookie.net/cso/images/4/46/Moreinfo.jpg/revision/latest?cb=20120318105310&format=original",
+      "thumbUrl": "https://vignette.wikia.nocookie.net/cso/images/4/46/Moreinfo.jpg/revision/latest?cb=20120318105310&format=original",
+      "name": "Fernando Taiwan/Hong Kong poster",
+      "category": "Fernando, Poster"
     },
     {
       "author": "Copyright from CSO WIKI",
