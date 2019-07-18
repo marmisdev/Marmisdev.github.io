@@ -1,371 +1,633 @@
-
-<!DOCTYPE html>
 <html>
-   <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-      
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-       
-  
-  <style>
-  .toast {
-  width:250px;
-  position:fixed;
-  right:20px;
-  bottom:20px;
-  z-index:10;
-  }
-  
-  .fade {
-    transition: opacity .15s linear;
-        transition-property: opacity;
-        transition-duration: 1.35s;
-        transition-timing-function: linear;
-        transition-delay: 0s;
-}
-  </style>
-   </head>
-   <body>
-   <div class="w3-container w3-center w3-animate-opacity">
-  <div class="toast" data-autohide="false">
-    <div class="toast-header">
-    <audio autoplay>
-  <source src="https://notificationsounds.com/message-tones/to-the-point-568/download/mp3" type="audio/mpeg">
-</audio>
-      <strong class="mr-auto text-primary">Wanna Collaboration? </strong>
-      <small class="text-muted"> 1 sec ago</small>
-    </div>
-    <div class="toast-body">
-     <p align="justifiy">
-     <div><img src="https://img.icons8.com/color/72/gmail.png" style="width:25px"></div>
-     <div>marmisdev@gmail.com</div>
-     </p>
-	 <p align="justifiy">
-     <div><img src="https://img.icons8.com/color/72/whatsapp.png" style="width:30px"></div>
-     <div>+62-896-3718-8871</div></p>
-    </div>
-  </div>
-</div>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-<script>
-$(document).ready(function(){
-  $('.toast').toast('show');
-});
-</script>
-      <div class="container">
-      
-      <div class="panel panel-info">
-      <div class="panel-heading"><h1><center>Portfolio</center></h1>
-      </div>
-      <div class="panel-body"><center><p>Below is a list of game works ever made by Marmis Dev.</p>
-  <p>The <abbr title="Is the nickname of Ammar Misbahudin as a developer">Marmis Dev</abbr> was founded in 2014 (Unofficial).</p></center><br>
-  </div></div>    
-<div class="panel-group" id="accordion">
-		 
-          <div class="panel panel-info">
-      <div class="panel-heading"><h2><center>Client Project</center></h2>
-      </div>
-      <div class="panel-body">
-            
-			<div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse11"><strong> Arrow Shape</strong></a></h4>
-               </div>
-               <div id="collapse11" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p> <br>- Client: PT. Timedoor Indonesia <br>- Type: Game (Mobile) <br>- Category: Arcade <br>- Platform: HTML5 & Android <br>- Engine: Construct 2 <br>- Development time : 2 Weeks <br>- Demo: <a href="https://drive.google.com/open?id=1UCad7BY5r2ZUU5jSC-mzCpqOSfJ3bgmV" target="_blank">Visit Now!</a> </p>
-                  </div>
-               </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <style>
+        .toast {
+            width: 250px;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            z-index: 10;
+        }
+        
+        .fade {
+            transition: opacity .15s linear;
+            transition-property: opacity;
+            transition-duration: 1.35s;
+            transition-timing-function: linear;
+            transition-delay: 0s;
+        }
+        
+        bold {
+            font-weight: bold;
+        }
+        
+        red {
+            color: #ff6b6b;
+        }
+        
+        green {
+            color: #1dd1a1;
+        }
+        
+        blue {
+            color: #54a0ff;
+        }
+        
+        yellow {
+            color: #feca57;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h1><center>Portfolio</center></h1>
             </div>
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title">
+            <div class="panel-body">
+                <center>
+                    <p><abbr title="Is the nickname of Ammar Misbahudin as a developer">Marmis Dev</abbr> is an indie game developer founded in January 2014 (Unofficial).</p>
+                    <p>Below is a list of game works ever made by Marmis Dev.</p>
+                    <br><tt>some projects show demos in the form of videos, this is intended to maintain the integrity of source files for certain abuse. however, file sources can be seen in part if you are a recruiter of an institution with certain requirements.</tt></center>
+
+            </div>
+        </div>
+        <div class="panel-group" id="accordion">
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h2><center>Client Project</center></h2>
+                </div>
+                <div class="panel-body">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse11"><strong> Arrow Shape</strong></a></h4>
+                        </div>
+                        <div id="collapse11" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Client: PT. Timedoor Indonesia
+                                    <br>- Type: Game (Mobile)
+                                    <br>- Category: Arcade
+                                    <br>- Platform: Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 2 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch, cloning, combo system, scoring system
+                                                                      <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://drive.google.com/open?id=1UCad7BY5r2ZUU5jSC-mzCpqOSfJ3bgmV" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a></p>
+                                    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><strong> Angry Crowd</strong></a>
                   </h4>
-               </div>
-               <div id="collapse2" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p>
-                       <br>- Client : Fiverr
-                       <br>- Type : Game (mobile)
-                       <br>- Category : Arcade
-                      <br>- Platform : HTML5 & Android
-                       <br>- Engine : Construct 2
-                       <br>- Development time : 2 Weeks
-                       <br>- Demo : <a href="https://drive.google.com/open?id=1u7M2VGyMVVUX8Kx5IJZQwVBlfIuRzTPb" target="_blank">Visit Now!</a> 
-                     </p>
-                  </div>
-               </div>
-            </div>
-			<div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse10"><strong> Carinho de Papel</strong></a></h4>
-               </div>
-               <div id="collapse10" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p> <br>- Client: Upwork <br>- Type: Game (Mobile) <br>- Category: Arcade <br>- Platform: HTML5 & Android <br>- Engine: Construct 2 <br>- Development time : 2 Weeks <br>- Demo: <a href="https://drive.google.com/open?id=15VOgiPygsxCiWPJ4DWP96OLOjwnbIeSp" target="_blank">Visit Now!</a> </p>
-                  </div>
-               </div>
-            </div>
-            
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title">
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Client : Fiverr
+                                    <br>- Type : Game (mobile)
+                                    <br>- Category : Arcade
+                                    <br>- Platform : Android
+                                    <br>- Engine : Construct 2
+                                    <br>- Development time : 2 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch, game adaptation, ads integration                                 
+                                    <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo : <a href="https://drive.google.com/open?id=1u7M2VGyMVVUX8Kx5IJZQwVBlfIuRzTPb" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#BelajarMembacadanMengeja"><strong> Belajar Membaca dan Mengeja</strong></a>
+                  </h4>
+                        </div>
+                        <div id="BelajarMembacadanMengeja" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Client : Sonokeling Studio
+                                    <br>- Type : Game (mobile)
+                                    <br>- Category : Education, Puzzle, Kids
+                                    <br>- Platform : Android
+                                    <br>- Engine : Construct 2
+                                    <br>- Development time : 2 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch, game design, ads integration, GoogleAds advertising
+                                    <br>- Demo : <a href="https://play.google.com/store/apps/details?id=com.sonokeling.belajarbaca&hl=en" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse10"><strong> Carinho de Papel</strong></a></h4>
+                        </div>
+                        <div id="collapse10" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Client: Upwork
+                                    <br>- Type: Game (Mobile)
+                                    <br>- Category: Arcade
+                                    <br>- Platform: HTML5 & Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 2 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : modification, marketing system, online leaderboard                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://drive.google.com/open?id=15VOgiPygsxCiWPJ4DWP96OLOjwnbIeSp" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a> </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><strong> Escape Cops</strong></a>
                   </h4>
-               </div>
-               <div id="collapse4" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p>
-                       <br>- Client : Fiverr
-                       <br>- Type : Game (mobile)
-                       <br>- Category : Arcade, Race & Simulation
-                       <br>- Platform : HTML5 & Android
-                       <br>- Engine : Construct 2
-                       <br>- Development time : 2 Weeks
-                       <br>- Demo : <a href="https://drive.google.com/open?id=15H0US0aFuuEwkAekdJEAPdGVwjnQMWh" target="_blank">Visit Now!</a> 
-                     </p>
-                  </div>
-               </div>
-            </div>
-			<div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse9"><strong> Farm Invasion</strong></a></h4>
-               </div>
-               <div id="collapse9" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p> <br>- Client: Fiverr <br>- Type: Game (mobile) <br>- Category: Arcade & Simulation <br>- Platform: HTML5 & Android <br>- Engine: Construct 2 <br>- Development time : 1 Month 3 Weeks <br>- Demo: <a href="https://drive.google.com/open?id=17IvFOFgAkFutA711Ts2MYU4maVMCCAR" target="_blank">Visit Now!</a></p>
-                  </div>
-               </div>
-            </div>
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse8"><strong> Formula 1 Race</strong></a></h4>
-               </div>
-               <div id="collapse8" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p> <br>- Client: Fiverr <br>- Type: Game (mobile)<br>- Category: Arcade, Race & Simulation <br>- Platform: HTML5 & Android <br>- Engine: Construct 2 <br>- Development time : 2 Weeks <br>- Demo: <a href="https://drive.google.com/open?id=1FUzitPRbAZfgz4ptZOmH0c4-sfxtRZvC" target="_blank">Visit Now!</a> </p>
-                  </div>
-               </div>
-            </div>
-			<div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title">
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Client : Fiverr
+                                    <br>- Type : Game (mobile)
+                                    <br>- Category : Arcade, Race & Simulation
+                                    <br>- Platform : HTML5 & Android
+                                    <br>- Engine : Construct 2
+                                    <br>- Development time : 2 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : modification, ads integration                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo : <a href="https://drive.google.com/open?id=15H0US0aFuuEwkAekdJEAPdGVwjnQMWh" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse9"><strong> Farm Invasion</strong></a></h4>
+                        </div>
+                        <div id="collapse9" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Client: Fiverr
+                                    <br>- Type: Game (mobile)
+                                    <br>- Category: Arcade & Simulation
+                                    <br>- Platform: HTML5 & Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 1 Month 3 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : modification, ads integration                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://drive.google.com/open?id=17IvFOFgAkFutA711Ts2MYU4maVMCCAR" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse8"><strong> Formula 1 Race</strong></a></h4>
+                        </div>
+                        <div id="collapse8" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Client: Fiverr
+                                    <br>- Type: Game (mobile)
+                                    <br>- Category: Arcade, Race & Simulation
+                                    <br>- Platform: HTML5 & Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 2 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch                                   <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://drive.google.com/open?id=1FUzitPRbAZfgz4ptZOmH0c4-sfxtRZvC" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><strong> Ghost vs Pets </strong></a>
                   </h4>
-               </div>
-               <div id="collapse3" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p>
-                       <br>- Client : Fiverr
-                       <br>- Type : Game (mobile)
-                       <br>- Category : Arcade
-                       <br>- Platform : HTML5, Android & iOS
-                       <br>- Engine : Construct 2
-                       <br>- Development time : 2 Month 2 Weeks
-                       <br>- Demo : <a href="https://drive.google.com/open?id=10zBhoKPu5XcbNU7tY8wVcxfACibw8RDw" target="_blank">Visit Now!</a> 
-                     </p>
-                  </div>
-               </div>
-            </div>
-			<div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse7"><strong> PC Buildr</strong></a></h4>
-               </div>
-               <div id="collapse7" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p> <br>- Client: Fiverr <br>- Type: Game (mobile) <br>- Category: Simulation <br>- Platform: HTML5 & Android <br>- Engine: Construct 2 <br>- Development time : 1 Week <br>- Demo: <a href="https://drive.google.com/open?id=1W1Q9VVnV_5h09_J1BDoAztMShiJnDNl" target="_blank">Visit Now!</a> </p>
-                  </div>
-               </div>
-            </div>
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse5"><strong> Pee Challenges</strong></a></h4>
-               </div>
-               <div id="collapse5" class="panel-collapse collapse ">
-                  <div class="panel-body ">
-                     <p><br>- Client: Fiverr<br>- Type: Game (mobile)<br>- Category: Arcade & Simulation<br>- Platform: HTML5 & Android<br>- Engine: Construct 2<br>- Development time : 2 Weeks<br>- Demo: <a href="https://drive.google.com/open?id=1VF8z5r8UUzevYan0_enr6BiWmZmUgCs" target="_blank">Visit Now!</a></p>
-                  </div>
-               </div>
-            </div>
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse14"><strong> Physics On Android</strong></a></h4>
-               </div>
-               <div id="collapse14" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p> <br>- Client: Danis A. O. (Yogyakarta University)
-                     <br>- Type: Game (Mobile) <br>- Category: Education <br>- Platform: HTML5 & Android <br>- Engine: Construct 2 <br>- Development time : 3 Weeks <br>- Demo: <a href="https://drive.google.com/open?id=1ZsuA4cJw9_W94h5dJz2yV0wkFUyCXqY1" target="_blank">Visit Now!</a> </p> 
-                  </div>
-               </div>
-            </div>
-			
-            
-            
-			<div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse13"><strong> RPG Question</strong></a></h4>
-               </div>
-               <div id="collapse13" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p> <br>- Client: FathuRifki E. G. (Telkom University)
-                     <br>- Type: Game (PC) <br>- Category:- Trivia <br>- Platform: HTML5 & Desktop <br>- Engine: Construct 2 <br>- Development time : 1 Month <br>- Demo: <a href="https://drive.google.com/open?id=1dFtNiOFoCeyFpgegolQvsZ7eudWXmZ7G" target="_blank">Visit Now!</a></p>  
-                  </div>
-               </div>
-            </div>
-			<div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><strong> Tim Jumper</strong></a></h4>
-               </div>
-               <div id="collapse6" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p> <br>- Client: Fiverr <br>- Type: Game (mobile) <br>- Category: Arcade & Platformer <br>- Platform: HTML5 & Android <br>- Engine: Construct 2 <br>- Development time : 3 Weeks <br>- Demo: <a href="https://drive.google.com/file/d/1Sk5VRT6ThrqPFYi2Ll3Q5Hlyrtf2b9y/view?usp=sharing" target="_blank">Visit Now!</a> </p>
-                  </div>
-               </div>
-            </div>
-			<div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title">
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Client : Fiverr
+                                    <br>- Type : Game (mobile)
+                                    <br>- Category : Arcade
+                                    <br>- Platform : HTML5, Android & iOS
+                                    <br>- Engine : Construct 2
+                                    <br>- Development time : 2 Month 2 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : modification, ads integration                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo : <a href="https://drive.google.com/open?id=10zBhoKPu5XcbNU7tY8wVcxfACibw8RDw" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse7"><strong> PC Buildr</strong></a></h4>
+                        </div>
+                        <div id="collapse7" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Client: Fiverr
+                                    <br>- Type: Game (mobile)
+                                    <br>- Category: Simulation
+                                    <br>- Platform: HTML5 & Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 1 Week
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://drive.google.com/open?id=1W1Q9VVnV_5h09_J1BDoAztMShiJnDNl" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse5"><strong> Pee Challenges</strong></a></h4>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse ">
+                            <div class="panel-body ">
+                                <p>
+                                    <br>- Client: Fiverr
+                                    <br>- Type: Game (mobile)
+                                    <br>- Category: Arcade & Simulation
+                                    <br>- Platform: HTML5 & Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 2 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://drive.google.com/open?id=1VF8z5r8UUzevYan0_enr6BiWmZmUgCs" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse14"><strong> Physics On Android</strong></a></h4>
+                        </div>
+                        <div id="collapse14" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Client: Danis A. O. (Yogyakarta University)
+                                    <br>- Type: Game (Mobile)
+                                    <br>- Category: Education
+                                    <br>- Platform: Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 3 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch                                      <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://drive.google.com/open?id=1ZsuA4cJw9_W94h5dJz2yV0wkFUyCXqY1" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a> </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse13"><strong> RPG Question</strong></a></h4>
+                        </div>
+                        <div id="collapse13" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Client: FathuRifki E. G. (Telkom University)
+                                    <br>- Type: Game (PC)
+                                    <br>- Category:- Trivia
+                                    <br>- Platform: HTML5 & Desktop
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 1 Month
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch, online leaderboard, dialog system, quiz sytem                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://drive.google.com/open?id=1dFtNiOFoCeyFpgegolQvsZ7eudWXmZ7G" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><strong> Tim Jumper</strong></a></h4>
+                        </div>
+                        <div id="collapse6" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Client: Fiverr
+                                    <br>- Type: Game (mobile)
+                                    <br>- Category: Arcade & Platformer
+                                    <br>- Platform: HTML5 & Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 3 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : modification, level design                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://drive.google.com/file/d/1Sk5VRT6ThrqPFYi2Ll3Q5Hlyrtf2b9y/view?usp=sharing" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><strong> Toss & Eat</strong></a>
                   </h4>
-               </div>
-               <div id="collapse1" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p>
-                       <br>- Client : Fiverr
-                       <br>- Type : Game (mobile)
-                       <br>- Category : Arcade
-                       <br>- Platform : HTML5 & Android
-                       <br>- Engine : Construct 2
-                       <br>- Development time : 2 Weeks
-                       <br>- Demo : <a href="https://drive.google.com/file/d/1SL7uacYpJHVG063NQYkEeoItQUrFOHFp/view?usp=sharing" target="_blank">Visit Now!</a> 
-                     </p>
-                  </div>
-               </div>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Client : Fiverr
+                                    <br>- Type : Game (mobile)
+                                    <br>- Category : Arcade
+                                    <br>- Platform : Android
+                                    <br>- Engine : Construct 2
+                                    <br>- Development time : 2 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo : <a href="https://drive.google.com/file/d/1SL7uacYpJHVG063NQYkEeoItQUrFOHFp/view?usp=sharing" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse12"><strong> ZigZag Line</strong></a></h4>
+                        </div>
+                        <div id="collapse12" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Client: PT. Timedoor Indonesia
+                                    <br>- Type: Game (Mobile)
+                                    <br>- Category: Arcade
+                                    <br>- Platform: HTML5 & Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 2 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : build from scracth, cloning                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://drive.google.com/file/d/1Ne3q27omkuIt0rSMCJ7G4Vd30Pq4nMEK/view?usp=sharing" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            
-            
-            
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse12"><strong> ZigZag Line</strong></a></h4>
-               </div>
-               <div id="collapse12" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p> <br>- Client: PT. Timedoor Indonesia <br>- Type: Game (Mobile) <br>- Category: Arcade <br>- Platform: HTML5 & Android <br>- Engine: Construct 2 <br>- Development time : 2 Weeks <br>- Demo: <a href="https://drive.google.com/file/d/1Ne3q27omkuIt0rSMCJ7G4Vd30Pq4nMEK/view?usp=sharing" target="_blank">Visit Now!</a></p>
-                  </div>
-               </div>
+            <br>
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h2><center>Self projects & Products</center></h2>
+                </div>
+                <div class="panel-body">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse18"><strong> Clicker Bubble Monster</strong></a></h4>
+                        </div>
+                        <div id="collapse18" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Type: GAME (Mobile)
+                                    <br>- Category: Idle & Casual
+                                    <br>- Platform: Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 1 Month
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://www.scirra.com/store/royalty-free-game-templates/clicker-bubble-monster-4395" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#FreelancerQ"><strong> FreelancerQ</strong></a></h4>
+                        </div>
+                        <div id="FreelancerQ" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Type: APPLICATION (Mobile)
+                                    <br>- Information
+                                    <br>- Platform: Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 3 Days
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch                                      <br>- Status : <abbr title="For a reason, the project has been Abandoned and there has been no update."><red>Abandoned</red></abbr>
+                                    <br>- Demo: <a href="https://play.google.com/store/apps/details?id=com.marmisdev.FreelanceQ" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse17"><strong> My Image Upload</strong></a></h4>
+                        </div>
+                        <div id="collapse17" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Type: APPLICATION (Mobile)
+                                    <br>- Category: Management
+                                    <br>- Platform: Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 2 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://www.scirra.com/store/royalty-free-game-templates/my-image-upload-4355" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse16"><strong> My Profile Template</strong></a></h4>
+                        </div>
+                        <div id="collapse16" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Type: APPLICATION (Mobile)
+                                    <br>- Category: Management
+                                    <br>- Platform: Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 2 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://www.scirra.com/store/royalty-free-game-templates/my-profile-template-4333" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a> </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#Real-Drag-Race"><strong> Real Drag Race</strong></a></h4>
+                        </div>
+                        <div id="Real-Drag-Race" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Type: GAME
+                                    <br>- Category: Racing, Multiplayer
+                                    <br>- Platform: HTML5 & Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : <abbr title="the project is ongoing and may take time to complete."><yellow>ON GOING</yellow></abbr>
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://github.com/MarmisDev/Real-Drag-Race" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#ReColorImage"><strong> ReColorImage</strong></a></h4>
+                        </div>
+                        <div id="ReColorImage" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Type: APPLICATION
+                                    <br>- Category: Tools
+                                    <br>- Platform: HTML5
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 2 Days
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch                                     <br>- Status : <abbr title="For a reason, the project has been Abandoned and there has been no update."><red>Abandoned</red></abbr>
+                                    <br>- Demo: <a href="https://github.com/MarmisDev/Real-Drag-Race" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a> </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#SmartApps"><strong> Smart Apps Pilgub Jateng</strong></a></h4>
+                        </div>
+                        <div id="SmartApps" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Type: APPLICATION (Mobile)
+                                    <br>- Category: Information
+                                    <br>- Platform: Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 3 Days
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch                                      <br>- Status : <abbr title="For a reason, the project has been Abandoned and there has been no update."><red>Abandoned</red></abbr>
+                                    <br>- Demo: <a href="https://drive.google.com/open?id=1h6rAaJnYKFEN2Ho3v2eH4paEX77KJo8D" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a> </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse19"><strong> Tap Battle Multiplayer</strong></a></h4>
+                        </div>
+                        <div id="collapse19" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Type: GAME (Mobile)
+                                    <br>- Category: Tap, Multiplayer & Casual
+                                    <br>- Platform: Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 2 Month
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://www.scirra.com/store/royalty-free-game-templates/tap-battle-multiplayer-photon-4391" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse20"><strong> Youtube Converter Downloader</strong></a></h4>
+                        </div>
+                        <div id="collapse20" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Type: APPLICATION (Mobile)
+                                    <br>- Category: Tools
+                                    <br>- Platform: Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 2 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch                                     <br>- Status :
+                                    <blue>Finished</blue>
+                                    <br>- Demo: <a href="https://www.scirra.com/store/royalty-free-game-templates/youtube-converter-downloader-4725" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse15"><strong> Youtube App</strong></a></h4>
+                        </div>
+                        <div id="collapse15" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <br>- Type: APPLICATION (Mobile)
+                                    <br>- Category: Tools
+                                    <br>- Platform: Android
+                                    <br>- Engine: Construct 2
+                                    <br>- Development time : 1 Weeks
+                                    <br>- Technology : Construct 2,<br>- Job : build from scratch                                     <br>- Status : <abbr title="For a reason, the project has been Abandoned and there has been no update."><red>Abandoned</red></abbr>
+                                    <br>- Demo: <a href="https://drive.google.com/file/d/1AtmquUuL6-g6CSk2v0xNZRPsdfvHu6n2/view?usp=sharing" target="_blank">Visit Now!<font color="red"><sup>CLICK</sup> </font></a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            
-            </div>
+        </div>
     </div>
-			<br>
-			
+    <div class="container">
+        <div class="panel-group">
 
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h2><center></center></h2>
+                </div>
+                <div class="panel-body">
+                    <center></center>
 
-    <div class="panel panel-info">
-      <div class="panel-heading"><h2><center>Self projects & Products</center></h2>
-      </div>
-      <div class="panel-body">
+                </div>
 
-			<div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse18"><strong> Clicker Bubble Monster</strong></a></h4>
-               </div>
-               <div id="collapse18" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p> <br>- Type: GAME (Mobile) <br>- Category: Idle & Casual <br>- Platform: Android <br>- Engine: Construct 2 <br>- Development time : 1 Month <br>- Demo: <a href="https://www.scirra.com/store/royalty-free-game-templates/clicker-bubble-monster-4395" target="_blank">Visit Now!</a></p>
-                  </div>
-               </div>
             </div>
-			<div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse17"><strong> My Image Upload</strong></a></h4>
-               </div>
-               <div id="collapse17" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p> <br>- Type: APPLICATION (Mobile) <br>- Category: - <br>- Platform: Android <br>- Engine: Construct 2 <br>- Development time : 2 Weeks <br>- Demo: <a href="https://www.scirra.com/store/royalty-free-game-templates/my-image-upload-4355" target="_blank">Visit Now!</a></p>
-                  </div>
-               </div>
-            </div>
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse16"><strong> My Profile Template</strong></a></h4>
-               </div>
-               <div id="collapse16" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p> <br>- Type: APPLICATION (Mobile) <br>- Category: - <br>- Platform: Android <br>- Engine: Construct 2 <br>- Development time : 2 Weeks <br>- Demo: <a href="https://www.scirra.com/store/royalty-free-game-templates/my-profile-template-4333" target="_blank">Visit Now!</a> </p>
-                  </div>
-               </div>
-            </div>
-            
-            
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse19"><strong> Tap Battle Multiplayer</strong></a></h4>
-               </div>
-               <div id="collapse19" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p> <br>- Type: GAME (Mobile) <br>- Category: Tap, Multiplayer & Casual <br>- Platform: Android <br>- Engine: Construct 2 <br>- Development time : 2 Month <br>- Demo: <a href="https://www.scirra.com/store/royalty-free-game-templates/tap-battle-multiplayer-photon-4391" target="_blank">Visit Now!</a></p>
-                  </div>
-               </div>
-            </div>
-            <div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse20"><strong> Youtube Converter Downloader</strong></a></h4>
-               </div>
-               <div id="collapse20" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p> <br>- Type: APPLICATION (Mobile) <br>- Category: - <br>- Platform: Android <br>- Engine: Construct 2 <br>- Development time : 2 Weeks <br>- Demo: <a href="https://www.scirra.com/store/royalty-free-game-templates/youtube-converter-downloader-4725" target="_blank">Visit Now!</a></p>
-                  </div>
-               </div>
-            </div>
-			<div class="panel panel-default">
-               <div class="panel-heading">
-                  <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse15"><strong> Youtube App</strong></a></h4>
-               </div>
-               <div id="collapse15" class="panel-collapse collapse">
-                  <div class="panel-body">
-                     <p> <br>- Type: APPLICATION (Mobile) <br>- Category: - <br>- Platform: Android <br>- Engine: Construct 2 <br>- Development time : 3 Weeks <br>- Demo: <a href="https://drive.google.com/file/d/1AtmquUuL6-g6CSk2v0xNZRPsdfvHu6n2/view?usp=sharing" target="_blank">Visit Now!</a></p>
-                  </div>
-               </div>
-            </div>
-         
-            
-			
-			
-         </div>
-      </div>
-      </div>
-    </div>
-      
-      
-      
-      
-      <div class="container">
-  <div class="panel-group">
-
-    <div class="panel panel-info">
-      <div class="panel-heading"><h2><center>Pages</center></h2>
-      </div>
-      <div class="panel-body">
-- Website  : www.marmisdev.win<br>
-- Fiverr   : https://www.fiverr.com/users/marmisdev<br>
-- Facebook : https://www.facebook.com/MarmisDev<br>
-- Upwork   : https://www.upwork.com/freelancers/~0100516bebbedc1bca<br>
-- LinkedIn  : https://www.linkedin.com/in/callmeammar</div>
+        </div>
     </div>
 
+    <div class="container">
+        <div class="panel-group">
 
-  </div>
-</div>
-   </body>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h2><center>Pages</center></h2>
+                </div>
+                <div class="panel-body">
+                    - Website : www.marmisdev.win
+                    <br> - Fiverr : https://www.fiverr.com/users/marmisdev
+                    <br> - Facebook : https://www.facebook.com/MarmisDev
+                    <br> - Upwork : https://www.upwork.com/freelancers/~0100516bebbedc1bca
+                    <br> - LinkedIn : https://www.linkedin.com/in/callmeammar</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="panel-group">
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h2><center>Contact</center></h2>
+                </div>
+                <div class="panel-body">
+                    - Mail : marmisdev@gmail.com
+                    <br> - WhatsApp : +6289637188871
+                    <br> - Phone : +6289637188871
+                    <br> - Skype : marmis040197
+                    <br>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
 
